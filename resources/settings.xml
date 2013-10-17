@@ -1,0 +1,11 @@
+<settings>
+    <category label='30007'> <!--General-->
+        <setting id="dlpath" label='30008' type="folder" source="auto" option="writeable" />
+    </category>
+    <category label="30001">
+        <setting id="lds_quality" type="enum" lvalues="30003|30004|30005" label="30006" default="1"/>
+    </category>
+    <!--category label="30002">
+        <setting id="byu_quality" type="enum" lvalues="30003|30004|30005" label="30006" default="0"/>
+    </category-->    
+</settings>
